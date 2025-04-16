@@ -73,5 +73,5 @@ If you find our work useful for your research, please consider citing our paper:
 ```
 
 ## Acknowledgement
-First of all, we would like to thank CACD's authors for inspiring our approach and Prof. Wu for helping us. We also provide a redeployed Pytorch version of CACD. If this article is helpful to you, please cite CACD and [CFRL](https://ieeexplore.ieee.org/document/10891329).
+First of all, we would like to thank CACD's authors for inspiring our approach and Prof. Wu for helping us. We also provide a redeployed Pytorch version of CACD. If this article is helpful to you, please cite [CACD](https://ieeexplore.ieee.org/document/9357940/) and [CFRL](https://ieeexplore.ieee.org/document/10891329).
 Secondly, we would like to thank Dr. Luigi Tommaso Luppino for his help in solving some comparative method problems.
