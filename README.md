@@ -20,4 +20,8 @@ The framework of the proposed CFRL is presented as follows:
 ![Framework of our proposed CFRL)](https://github.com/TongfeiLiu/CFRL-for-MCD/blob/main/Figs/Fig1-Framework.jpg)
 
 ## Results Preview
+**Accuracy**
+![Accuracy of our proposed CFRL)](https://github.com/TongfeiLiu/CFRL-for-MCD/blob/main/Figs/accuracy.png)
 
+**Change Maps**
+![Change maps of our proposed CFRL)](https://github.com/TongfeiLiu/CFRL-for-MCD/blob/main/Figs/visual%20result.jpg)
