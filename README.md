@@ -44,6 +44,7 @@ The following takes the yellow river data as an example.
 ```
 python train.py
 ```
+**Note:** Here, we provide the difference maps of the six datasets involved in the paper in the 'MCD DI Results' folder. Based on this, it is easy to use Otsu or FLICM to get the final change map.
 
 ## Citation
 If you find our work useful for your research, please consider citing our paper:
