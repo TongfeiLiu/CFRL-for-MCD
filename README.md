@@ -59,7 +59,7 @@ If you find our work useful for your research, please consider citing our paper:
   keywords={Feature extraction;Image reconstruction;Training;Data mining;Autoencoders;Representation learning;Image sensors;Electronic mail;Decoding;Clustering algorithms;Multimodal change detection;unsupervised change detection;heterogeneous images;representation learning;commonality feature},
   doi={10.1109/TIP.2025.3539461}}
 
-@ARTICLE{TGRS2024AEKAN,
+@ARTICLE{TGRS2025AEKAN,
   author={Liu, Tongfei and Xu, Jianjian and Lei, Tao and Wang, Yingbo and Du, Xiaogang and Zhang, Weichuan and Lv, Zhiyong and Gong, Maoguo},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={AEKAN: Exploring Superpixel-Based AutoEncoder Kolmogorov-Arnold Network for Unsupervised Multimodal Change Detection}, 
@@ -73,5 +73,5 @@ If you find our work useful for your research, please consider citing our paper:
 ```
 
 ## Acknowledgement
-First of all, we would like to thank CACD's authors for inspiring our approach and Prof. Wu for helping us. We also provide a redeployed Pytorch version of CACD. If this article is helpful to you, please cite [CACD](https://ieeexplore.ieee.org/document/9357940/) and [CFRL](https://ieeexplore.ieee.org/document/10891329).
+First of all, we would like to thank CACD's authors for inspiring our approach and Prof. Wu for helping us. We also provide a redeployed Pytorch version of CACD.(code is available at this [link](https://github.com/TongfeiLiu/CACD-for-MCD). If this article is helpful to you, please cite [CACD](https://ieeexplore.ieee.org/document/9357940/) and [CFRL](https://ieeexplore.ieee.org/document/10891329).
 Secondly, we would like to thank Dr. Luigi Tommaso Luppino for his help in solving some comparative method problems.
