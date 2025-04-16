@@ -44,3 +44,30 @@ The following takes the yellow river data as an example.
 ```
 python train.py
 ```
+
+## Citation
+If you find our work useful for your research, please consider citing our paper:
+```
+@ARTICLE{TIP2025CFRL,
+  author={Liu, Tongfei and Zhang, Mingyang and Gong, Maoguo and Zhang, Qingfu and Jiang, Fenlong and Zheng, Hanhong and Lu, Di},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection}, 
+  year={2025},
+  volume={34},
+  number={},
+  pages={1219-1233},
+  keywords={Feature extraction;Image reconstruction;Training;Data mining;Autoencoders;Representation learning;Image sensors;Electronic mail;Decoding;Clustering algorithms;Multimodal change detection;unsupervised change detection;heterogeneous images;representation learning;commonality feature},
+  doi={10.1109/TIP.2025.3539461}}
+
+@ARTICLE{TGRS2024AEKAN,
+  author={Liu, Tongfei and Xu, Jianjian and Lei, Tao and Wang, Yingbo and Du, Xiaogang and Zhang, Weichuan and Lv, Zhiyong and Gong, Maoguo},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={AEKAN: Exploring Superpixel-Based AutoEncoder Kolmogorov-Arnold Network for Unsupervised Multimodal Change Detection}, 
+  year={2025},
+  volume={63},
+  number={},
+  pages={1-14},
+  keywords={Feature extraction;Sensors;Image sensors;Training;Remote sensing;Sensor phenomena and characterization;Land surface;Analytical models;Sun;Radar imaging;Commonality features;heterogeneous images;Kolmogorov-Arnold Network (KAN);multimodal change detection (MCD)},
+  doi={10.1109/TGRS.2024.3515258}
+}
+```
