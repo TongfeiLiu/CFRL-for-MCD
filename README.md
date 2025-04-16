@@ -7,8 +7,6 @@ This repository is the official PyTorch implementation of CFRL.
 <ul>
   <li>Introduction</li>
   <li>Results Preview</li>
-  <li>Requirements</li>
-  <li>Installation</li>
   <li>Usage</li>
   <li>Citation</li>
   <li>Acknowledgements</li>
@@ -25,3 +23,24 @@ The framework of the proposed CFRL is presented as follows:
 
 **Change Maps**
 ![Change maps of our proposed CFRL)](https://github.com/TongfeiLiu/CFRL-for-MCD/blob/main/Figs/visual%20result.jpg)
+
+## Usage
+The following takes the yellow river data as an example.
+### 1. Prepare your data: 
+* --data_name: e.g., yellow.
+* --t1_path: e.g., './data/Yellow/yellow_C_1.bmp'.
+* --t2_path: e.g., './data/Yellow/yellow_C_2.bmp'.
+* --gt_path: e.g., './data/Yellow/yellow_C_gt.png'.(only evaluation)
+
+### 2. Parameters Setup
+
+* t1_nc: The number of bands used by t1 image (default: 1)
+* t2_nc: The number of bands used by t2 image (default: 1)
+* patch_size: Patch size during training (default: 9)
+* test_ps: Patch size during testing (default: 9)
+* epoch: Number of training epochs (Suggestion: 10~20)
+  
+### 3. Run the script:
+```
+python train.py
+```
