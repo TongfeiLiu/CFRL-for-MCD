@@ -10,6 +10,7 @@ This repository is the official PyTorch implementation of CFRL.
   <li>Usage</li>
   <li>Citation</li>
   <li>Acknowledgements</li>
+  <li>Contact us</li>
 </ul>
 
 ## Introduction
@@ -76,3 +77,11 @@ If you find our work useful for your research, please consider citing our paper:
 ## Acknowledgement
 First of all, we would like to thank CACD's authors for inspiring our approach and Prof. Wu for helping us. We also provide a redeployed Pytorch version of CACD.(code is available at this [link](https://github.com/TongfeiLiu/CACD-for-MCD). If this article is helpful to you, please cite [CACD](https://ieeexplore.ieee.org/document/9357940/) and [CFRL](https://ieeexplore.ieee.org/document/10891329).
 Secondly, we would like to thank Dr. Luigi Tommaso Luppino for his help in solving some comparative method problems.
+
+## Contact us 
+Although the current version can provide a good result, it is not stable enough due to the lack of supervision information. In the future, we will continue to conduct research and strive to innovate more stable and robust algorithms.
+
+If you have any problems when running the code, please do not hesitate to contact us. Thanks.  
+E-mail: liutongfei_home@hotmail.com
+
+Date: Apr. 16, 2025  
