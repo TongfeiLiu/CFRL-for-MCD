@@ -74,13 +74,6 @@ decoder2 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
 encoder.to(device=device)
 decoder1.to(device=device)
 decoder2.to(device=device)
-# discriminator1.to(device=device)
-# discriminator2.to(device=device)
-
-# D1_COAE_t1.to(device=device)
-# D1_COAE_t2.to(device=device)
-# D2_COAE_t1.to(device=device)
-# D2_COAE_t2.to(device=device)
 
 trans = Transforms.Compose([Transforms.ToTensor()])
 
