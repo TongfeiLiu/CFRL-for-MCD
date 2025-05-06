@@ -26,7 +26,7 @@ from skimage.transform import resize
 # gloucester2 dataset:  nc1 = 3, nc2 = 1
 # gloucester1 dataset:  nc1 = 1, nc2 = 3
 
-# 选择设备，有cuda用cuda，没有就用cpu
+# Select device，w/ cuda，w/o cpu
 device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
 
 parser = argparse.ArgumentParser()
