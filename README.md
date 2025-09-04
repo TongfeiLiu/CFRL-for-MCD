@@ -1,9 +1,16 @@
-# CFRL-for-MCD
-The paper [Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection](https://ieeexplore.ieee.org/document/10891329) has been published by **IEEE Transactions on Image Processing in 2025**. 
+# TIP 2025: Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection
 
-This repository is the official PyTorch implementation of CFRL.
+![Paper](https://img.shields.io/badge/Paper-TIP-blue)
+![Python](https://img.shields.io/badge/Python-3.7%2B-green)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.8%2B-red)
 
-## Outline
+This repository provides the official implementation of the paper:
+
+Tongfei Liu, Mingyang Zhang, Maoguo Gong, Qingfu Zhang, Fenlong Jiang, Hanhong Zheng, and Di Lu [J]. [Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection](https://ieeexplore.ieee.org/document/10891329), **IEEE Transactions on Image Processing, 2025**, 34:1219-1233. 
+
+---
+
+## 📖 Outline
 <ul>
   <li>Introduction</li>
   <li>Results Preview</li>
@@ -13,19 +20,19 @@ This repository is the official PyTorch implementation of CFRL.
   <li>Contact us</li>
 </ul>
 
-## Introduction
+## 📖 Abstract
 The main challenge of multimodal change detection (MCD) is that multimodal bitemporal images (MBIs) cannot be compared directly to identify changes. To overcome this problem, this paper proposes a novel commonality feature representation learning (CFRL) and constructs a CFRL-based unsupervised MCD framework. The CFRL is composed of a Siamese-based encoder and two decoders. First, the Siamese-based encoder can map original MBIs in the same feature space for extracting the representative features of each modality. Then, the two decoders are used to reconstruct the original MBIs by regressing themselves, respectively. Meanwhile, we swap the decoders to reconstruct the pseudo-MBIs to conduct modality alignment. Subsequently, all reconstructed images are input to the Siamese-based encoder again to map them in the same feature space, by which representative features are obtained. On this basis, latent commonality features between MBIs can be extracted by minimizing the distance between these representative features. These latent commonality features are comparable and can be used to identify changes. Notably, the proposed CFRL can be performed simultaneously in two modalities corresponding to MBIs. Therefore, two change magnitude images (CMIs) can be generated simultaneously by measuring the difference between the commonality features of MBIs. Finally, a simple threshold algorithm or a clustering algorithm can be employed to divide CMIs into binary change maps. Extensive experiments on six publicly available MCD datasets show that the proposed CFRL-based framework can achieve superior performance compared with other state-of-the-art approaches.
 The framework of the proposed CFRL is presented as follows:
 ![Framework of our proposed CFRL)](https://github.com/TongfeiLiu/CFRL-for-MCD/blob/main/Figs/Fig1-Framework.jpg)
 
-## Results Preview
+## 📊 Results Preview
 **Accuracy**
 ![Accuracy of our proposed CFRL)](https://github.com/TongfeiLiu/CFRL-for-MCD/blob/main/Figs/accuracy.png)
 
 **Change Maps**
 ![Change maps of our proposed CFRL)](https://github.com/TongfeiLiu/CFRL-for-MCD/blob/main/Figs/visual%20result.jpg)
 
-## Usage
+## 🛠 Usage
 The following takes the yellow river data as an example.
 ### 1. Prepare your data: 
 * --data_name: e.g., yellow.
@@ -47,9 +54,10 @@ python train.py
 ```
 **Note:** Here, we provide the difference maps of the six datasets involved in the paper in the 'MCD DI Results' folder. Based on this, it is easy to use Otsu or FLICM to get the final change map.
 
-## Citation
+## 📜 Citation
 If you find our work useful for your research, please consider citing our paper:
-```
+
+```bibtex
 @ARTICLE{TIP2025CFRL,
   author={Liu, Tongfei and Zhang, Mingyang and Gong, Maoguo and Zhang, Qingfu and Jiang, Fenlong and Zheng, Hanhong and Lu, Di},
   journal={IEEE Transactions on Image Processing}, 
@@ -74,14 +82,14 @@ If you find our work useful for your research, please consider citing our paper:
 }
 ```
 
-## Acknowledgement
+## 🙏Acknowledgement
 First of all, we would like to thank [CACD](https://ieeexplore.ieee.org/document/9357940/)'s authors for inspiring our approach and Prof. Wu for helping us. We also provide a redeployed Pytorch version of CACD. (The code is available at this [link](https://github.com/TongfeiLiu/CACD-for-MCD)). If this article is helpful to you, please cite [CACD](https://ieeexplore.ieee.org/document/9357940/) and [CFRL](https://ieeexplore.ieee.org/document/10891329).
 Secondly, we would like to thank Dr. Luigi Tommaso Luppino for his help in solving some comparative method problems.
 
-## Contact us 
+## 📮Contact us 
 Although the current version can provide a good result, it is not stable enough due to the lack of supervision information. In the future, we will continue to conduct research and strive to innovate more stable and robust algorithms.
 
 If you have any problems when running the code, please do not hesitate to contact us. Thanks.  
-E-mail: liutongfei_home@hotmail.com
+Tongfei Liu: liutongfei_home@hotmail.com
 
 Date: Apr. 16, 2025  
