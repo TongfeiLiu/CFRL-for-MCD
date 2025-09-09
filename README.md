@@ -47,7 +47,22 @@ The following takes the yellow river data as an example.
 * patch_size: Patch size during training (default: 9)
 * test_ps: Patch size during testing (default: 9)
 * epoch: Number of training epochs (Suggestion: 10~20)
-  
+
+**Recommended Hyperparameters**
+
+Based on the paper, here are the suggested parameters for each dataset:
+
+|     Dataset      | patch_size | test_ps |
+|---------------- -|------------|---------|
+| #1 (italy)       |     9      |   11    |
+| #2 (yellow)      |     9      |    9    |
+| #3 (gloucester2) |     9      |    9    |
+| #4 (bastrop)     |     9      |    3    |
+| #5 (california)  |     9      |    3    |
+| #6 (France)      |     9      |    9    |
+
+---
+
 ### 3. Run the script:
 ```
 python train.py
