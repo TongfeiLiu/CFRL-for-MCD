@@ -52,14 +52,17 @@ The following takes the yellow river data as an example.
 
 Based on the paper, here are the suggested parameters for each dataset:
 
-|     Dataset      | patch_size | test_ps |
-|---------------- -|------------|---------|
-| #1 (italy)       |     9      |   11    |
-| #2 (yellow)      |     9      |    9    |
-| #3 (gloucester2) |     9      |    9    |
-| #4 (bastrop)     |     9      |    3    |
-| #5 (california)  |     9      |    3    |
-| #6 (France)      |     9      |    9    |
+
+Based on the paper, here are the suggested parameters for each dataset:
+
+| Dataset | n_seg | com |
+|---------|-------|-----|
+| #1 (italy)      |  9  | 11  |
+| #2 (yellow)     |  9  | 9 |
+| #3 (gloucester2)     |  9  | 9  |
+| #4 (bastrop)     |  9  | 3  |
+| #5 (california)     |  9  | 3  |
+| #6 (France)     |  9  | 9 |
 
 ---
 
