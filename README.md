@@ -50,8 +50,6 @@ The following takes the yellow river data as an example.
 
 **Recommended Hyperparameters**
 
-Based on the paper, here are the suggested parameters for each dataset:
-
 | Datasets | n_seg | com |
 |---------|-------|-----|
 | #1 (italy)      |  9  | 11  |
