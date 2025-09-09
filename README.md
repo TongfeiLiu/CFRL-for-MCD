@@ -52,10 +52,7 @@ The following takes the yellow river data as an example.
 
 Based on the paper, here are the suggested parameters for each dataset:
 
-
-Based on the paper, here are the suggested parameters for each dataset:
-
-| Dataset | n_seg | com |
+| Datasets | n_seg | com |
 |---------|-------|-----|
 | #1 (italy)      |  9  | 11  |
 | #2 (yellow)     |  9  | 9 |
