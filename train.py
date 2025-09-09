@@ -64,12 +64,6 @@ args = parser.parse_args()
 encoder = Encoder(in_channels=1, out_channels=64, patch_size=args.patch_size)
 decoder1 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
 decoder2 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
-# discriminator1 = Discriminator(in_channels=3, out_channels=3)
-# discriminator2 = Discriminator(in_channels=3, out_channels=3)
-# D1_COAE_t1 = COAE(in_channels=64)
-# D1_COAE_t2 = COAE(in_channels=64)
-# D2_COAE_t1 = COAE(in_channels=64)
-# D2_COAE_t2 = COAE(in_channels=64)
 
 encoder.to(device=device)
 decoder1.to(device=device)
@@ -580,3 +574,4 @@ def test():
 if __name__ == "__main__":
     train()
     # test()
+
