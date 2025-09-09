@@ -61,10 +61,14 @@ parser.add_argument('--epochs', default=10, type=int)
 parser.add_argument('--vision_path', default='./vision/', type=str)
 args = parser.parse_args()
 
-encoder = Encoder(in_channels=1, out_channels=64, patch_size=args.patch_size)
-decoder1 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
-decoder2 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
-
+if args.data_name == 'yellow' or 'california' or 'bastrop':
+  encoder = Encoder(in_channels=1, out_channels=64, patch_size=args.patch_size)
+  decoder1 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
+  decoder2 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
+else:
+  encoder = Encoder(in_channels=3, out_channels=64, patch_size=args.patch_size)
+  decoder1 = Decoder(in_channels=64, out_channels=3, patch_size=args.patch_size)
+  decoder2 = Decoder(in_channels=64, out_channels=3, patch_size=args.patch_size)
 encoder.to(device=device)
 decoder1.to(device=device)
 decoder2.to(device=device)
@@ -574,4 +578,5 @@ def test():
 if __name__ == "__main__":
     train()
     # test()
+
 
