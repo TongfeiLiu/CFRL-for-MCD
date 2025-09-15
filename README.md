@@ -98,6 +98,16 @@ If you find our work useful for your research, please consider citing our paper:
 ## 🙏Acknowledgement
 First of all, we would like to thank [CACD](https://ieeexplore.ieee.org/document/9357940/)'s authors for inspiring our approach and Prof. Wu for helping us. We also provide a redeployed Pytorch version of CACD. (The code is available at this [link](https://github.com/TongfeiLiu/CACD-for-MCD)). If this article is helpful to you, please cite [CACD](https://ieeexplore.ieee.org/document/9357940/) and [CFRL](https://ieeexplore.ieee.org/document/10891329).
 Secondly, we would like to thank Dr. Luigi Tommaso Luppino for his help in solving some comparative method problems.
+In addition, we are also very grateful for the outstanding contributions of the publicly available MCD datasets [1,2,3]
+
+```
+[1] https://sites.google.com/view/luppino/data.
+[2] Professor Michele Volpi's webpage at https://sites.google.com/site/michelevolpiresearch/home.
+[3] Professor Max Mignotte's webpage (http://www-labs.iro.umontreal.ca/~mignotte/).
+[4] https://github.com/yulisun.
+```
+
+---
 
 ## 📮Contact us 
 Although the current version can provide a good result, it is not stable enough due to the lack of supervision information. In the future, we will continue to conduct research and strive to innovate more stable and robust algorithms.
