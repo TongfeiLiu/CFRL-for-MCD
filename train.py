@@ -61,7 +61,7 @@ parser.add_argument('--epochs', default=10, type=int)
 parser.add_argument('--vision_path', default='./vision/', type=str)
 args = parser.parse_args()
 
-if args.data_name == 'yellow' or 'california' or 'bastrop':
+if args.data_name in ['yellow', 'california', 'bastrop']:
   encoder = Encoder(in_channels=1, out_channels=64, patch_size=args.patch_size)
   decoder1 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
   decoder2 = Decoder(in_channels=64, out_channels=1, patch_size=args.patch_size)
@@ -578,5 +578,6 @@ def test():
 if __name__ == "__main__":
     train()
     # test()
+
 
 
