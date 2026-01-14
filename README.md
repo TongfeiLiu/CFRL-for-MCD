@@ -12,7 +12,7 @@ Tongfei Liu, Mingyang Zhang, Maoguo Gong, Qingfu Zhang, Fenlong Jiang, Hanhong Z
 
 ## 📢 News
 
-🏆 Our CFRL was selected as an **ESI Highly Cited Paper**.
+🏆 Our CFRL was selected as an **ESI Highly Cited Paper** in 2025.
 
 ## 📖 Outline
 <ul>
