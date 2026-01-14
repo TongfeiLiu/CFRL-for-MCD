@@ -17,6 +17,8 @@ Tongfei Liu, Mingyang Zhang, Maoguo Gong, Qingfu Zhang, Fenlong Jiang, Hanhong Z
 
 🔄 We have added our CFRL results (difference images) on the Shuguang and Gloucester1 datasets for researchers to compare.
 
+---
+
 ## 📖 Outline
 <ul>
   <li>Introduction</li>
