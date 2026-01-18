@@ -11,9 +11,9 @@ Tongfei Liu, Mingyang Zhang, Maoguo Gong, Qingfu Zhang, Fenlong Jiang, Hanhong Z
 ---
 
 ## 📢 News
-🔄 We have added our CFRL results (difference images) on the Shuguang and Gloucester1 datasets in the 'MCD DI Results' folder for researchers to compare.
+- 🔄 We have added our CFRL results (difference images) on the Shuguang and Gloucester1 datasets in the 'MCD DI Results' folder for researchers to compare.
 
-🎉 Our CFRL was selected as an 🏆**ESI Highly Cited Paper** in 2025.
+- 🎉 Our CFRL was selected as an 🏆**ESI Highly Cited Paper** in 2025.
 ![Highly Cited Paper)](https://github.com/TongfeiLiu/CFRL-for-MCD/blob/main/Figs/ESI%20Highly%20Cited%20Paper.png)
 
 ---
