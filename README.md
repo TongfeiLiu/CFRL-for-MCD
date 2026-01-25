@@ -1,4 +1,4 @@
-# TIP 2025: Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection
+# [TIP 2025]: Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection
 
 ![Paper](https://img.shields.io/badge/Paper-TIP-blue)
 ![Python](https://img.shields.io/badge/Python-3.7%2B-green)
