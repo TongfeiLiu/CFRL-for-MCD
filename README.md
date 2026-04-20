@@ -58,7 +58,7 @@ The following takes the yellow river data as an example.
 
 **Recommended Hyperparameters**
 
-| Datasets | n_seg | com |
+| Datasets | Tr | Te |
 |---------|-------|-----|
 | #1 (italy)      |  9  | 11  |
 | #2 (yellow)     |  9  | 9 |
